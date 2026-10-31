@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+*.iml
+android/local.properties
+=======
 # Miscellaneous
 *.class
 *.lock
@@ -117,3 +129,4 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+>>>>>>> 7057b4f7871d3c6afddeaaa28c46ec79da637fcb
