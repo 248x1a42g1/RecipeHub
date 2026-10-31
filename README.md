@@ -71,3 +71,9 @@ https://github.com/248x1a42g1/RecipeHub
 
 ### Favorites
 ![Favorites](screenshots/favorites.png)
+## Team Members and Responsibilities
+
+| Team Member | Role | Responsibilities |
+|---|---|---|
+| TUMMALA VENKATESWARLU | Team Leader | Project coordination, GitHub management, integration and testing |
+| SARKA VENKATESH | Team Member | Profile screen and About screen development |
