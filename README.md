@@ -1,63 +1,63 @@
-# RecipeHub — Flutter Group Project
+# RecipeHub 🍽️
 
-RecipeHub is an Android recipe application implemented to address the mandatory requirements in the Flutter Application Development Programme project specification.
+## Flutter Group Project
 
-## Features
-- Recipe list from DummyJSON public recipe API.
-- List loading, error/retry, empty and data states.
-- Search and cuisine/category filtering.
-- Recipe detail view with ingredients and instructions.
-- Validated form for user-created recipes.
-- Personal recipes and favourites persist locally using SharedPreferences.
-- Shared application state using Provider and ChangeNotifier.
-- Consistent Material 3 theme.
-- Widget/model test.
+### Project Description
+RecipeHub is a Flutter-based recipe application that allows users to explore recipes, view recipe details, add their own recipes, and manage favourite recipes.
 
-## Requirements
-- Flutter stable 3.35 or newer
-- Dart with null safety
-- Android Studio, Android SDK and JDK 17
-- Internet for initial API recipe loading
+### Features
+- Browse available recipes.
+- View recipe ingredients and preparation steps.
+- Add new personal recipes.
+- Mark and view favourite recipes.
+- Profile screen.
+- About screen.
+- Form validation.
+- Local data persistence.
 
-## Run
-1. Install Flutter and configure Android Studio/Android SDK.
-2. Unzip the project.
-3. Open a terminal in the `recipehub` folder.
+### Technologies Used
+- Flutter
+- Dart
+- Provider (ChangeNotifier)
+- Shared Preferences
+- Android Studio
+- Git and GitHub
+
+### Project Structure
+```text
+lib/
+ ├── models/
+ ├── providers/
+ ├── screens/
+ ├── services/
+ ├── widgets/
+ └── main.dart
+
+test/
+android/
+```
+
+### How to Run the Project
+1. Install Flutter SDK.
+2. Clone this repository.
+3. Open the project in Android Studio.
 4. Run:
-   ```bash
-   flutter pub get
-   flutter create . --platforms=android
-   flutter run
-   ```
-   `flutter create` generates Android platform scaffolding if it is not present.
-5. Run tests:
-   ```bash
-   flutter test
-   ```
-6. Create a release APK:
-   ```bash
-   flutter build apk --release
-   ```
-   APK output: `build/app/outputs/flutter-apk/app-release.apk`
 
-## Data source
-DummyJSON Recipes API: https://dummyjson.com/recipes
+```bash
+flutter pub get
+flutter run
+```
 
-Personal recipes and favourite IDs are stored on the device. API access requires an internet connection. The app can still display locally saved recipes when the API is unavailable.
+### Testing
+- Recipe browsing
+- Recipe details
+- Add recipe validation
+- Favourites
+- Profile and About screens
+- Local data persistence
 
-## Suggested GitHub workflow
-Create a public repository and commit work regularly from every team member. Do not commit API keys or private credentials.
+### Team Contributions
+Add each team member's name and their assigned responsibilities here.
 
-## Team contributions
-- Member 1: [name and owned screens/features]
-- Member 2: [name and owned screens/features]
-- Member 3: [name and owned screens/features]
-
-## Defect log
-Record each issue found, steps to reproduce, and whether it is fixed before submission.
-
-## Demonstration outline (5 minutes)
-- 0:00–0:30: audience and problem
-- 0:30–3:30: live recipe flow, demonstrate rejected form entry and error/empty state
-- 3:30–4:30: technical challenge and solution; every member speaks
-- 4:30–5:00: GitHub commit history and APK
+### Repository
+https://github.com/248x1a42g1/RecipeHub
