@@ -61,3 +61,13 @@ Add each team member's name and their assigned responsibilities here.
 
 ### Repository
 https://github.com/248x1a42g1/RecipeHub
+## App Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Recipe Details
+![Recipe Details](screenshots/details.png)
+
+### Favorites
+![Favorites](screenshots/favorites.png)
