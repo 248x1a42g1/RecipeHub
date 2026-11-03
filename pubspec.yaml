@@ -2,7 +2,7 @@
 name: recipehub
 description: RecipeHub Flutter group project based on the provided specification.
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.5.0 <4.0.0'
