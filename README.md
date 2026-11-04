@@ -193,16 +193,19 @@ The current project information does not specify known application limitations.
 
 Add any remaining issues or limitations discovered during testing.
 
-### Application Screenshots
+#### Application Screenshots
 
 #### 1. Home Screen
+![Home Screen](screenshots/home.png)
 
 #### 2. Recipe Details
+![Recipe Details](screenshots/details.png)
 
 #### 3. Favorites
+![Favorites](screenshots/favorites.png)
 
 #### 4. Add Recipe Screen
-
+![Add Recipe Screen](screenshots/add_recipe.png)
 ### Release APK
 
 **RecipeHub v1.0.1** has been built and prepared for Android.
